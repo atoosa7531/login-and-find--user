@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub User Finder</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.5/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="tailwind/tailwind-all.min.css"></script>
+    <script src="tailwind/tailwind-base.min.css"></script>
+    <script src="tailwind/tailwind-components.min.css"></script>
+    <script src="tailwind/tailwind-utilities.min.css"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+<nav class="navbar flex-col ">
+    <div class="container">
+        <a href="" class="text">Github User Finder</a>
+    </div>
+</nav>
+<div class="container searchContainer">
+    <div class="search card card-body">
+        <h2 class="font">Search  user</h2>
+        <p class="lead">Enter username to see user profile  </p>
+        <input type="text" id="userName" class=" file-input file-input-bordered" placeholder="username">
+    </div>
+    <br>
+    <div id="profile">
+        <footer class="mt-5 p-3 text-center bg-light">
+
+        </footer>
+    </div>
+</div>
+<script src="github.js"></script>
+<script src="ui.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
